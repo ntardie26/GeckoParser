@@ -1,0 +1,33 @@
+{
+  "name": "gecko-decryptor",
+  "version": "1.0.0",
+  "description": "A proof-of-concept tool to decrypt data from Gecko-based browsers",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node index.ts"
+  },
+  "keywords": [
+    "gecko",
+    "firefox",
+    "browser",
+    "decryptor",
+    "password",
+    "cookie"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/ffi-napi": "^4.0.7",
+    "@types/node": "^20.9.0",
+    "@types/ref-napi": "^3.0.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
